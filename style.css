@@ -1,0 +1,273 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* Left container */
+.left-cont{
+    width: 22%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #ffffff;
+    padding: 8px;
+
+}
+.left-top-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+
+    margin-bottom: 15px;
+}
+
+.left-top-slogan{
+    color: red;
+}
+
+.left-top-menu{
+    font-size: 20px;
+    text-align: center;
+}
+
+.left-img{
+    width: 220px;
+    height: 220px;
+    margin-bottom: 0px;
+}
+
+
+.left-middle-cont{
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+.ol{
+    width: 100%;
+    padding: 15px;
+    margin-left: 15px;;
+ 
+}
+
+.link{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: lightseagreen;
+}
+
+.left-bottom-cont{
+    width: 100%;
+    margin-bottom: 15px;
+  
+}
+
+.hr{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 15px;
+    border: 1px solid #787878;
+}
+
+.right-cont{
+    width: 78%;
+    height: 100%;
+
+}
+
+/* nav */
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 9%;
+    background-color:#191D20;
+    width: 78%;
+
+    position: fixed;
+    top: 0px;
+
+
+}
+
+
+.search-cont{
+    background-color: #272A30;
+    height: 30px;
+    width: 60%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.input{
+    height: 100%;
+    width: 100%;
+    background-color: #272A30;
+    outline: none;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+}
+.search-icon{
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.nav-button-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.nav-button{
+    background-color: #FF2424;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Body container */
+.body-cont{
+    background-color: black;
+    width: 100%;
+    height: 92%;
+    padding: 10px;
+    margin-top: 58px;
+    overflow-y: scroll;
+}
+
+.banner-cont{
+    width: 100%;
+    height: 45%;
+    background-image: url("https://i.pinimg.com/736x/95/79/5a/95795ae648d653fb514eb210f0ba50ce.jpg");
+    border-radius: 16px;
+    margin-top: 10px;
+}
+
+.close{
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: end;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.remove-banner{
+    display: none;
+}
+
+.menu-body{
+    height: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.menu-heading{
+    color: white;
+}
+
+/* Items container */
+.items-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.each-card{
+    width: 30%;
+    background-color: #191D20;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 10px;
+
+}
+
+.each-card-img{
+    width: 100%;
+    height: 180px;
+    border-radius: 12px;
+}
+
+.price-btn-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.name-price-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+
+} 
+
+.item-name{
+    font-size: 18px;
+    color: white;
+    font-weight: bold ;
+}
+
+.item-price{
+    font-size: 20px;
+    color: white;
+}
+
+.add{
+    width: 30px;
+    height: 30px;
+    color: #787878;
+    cursor: pointer;
+}
